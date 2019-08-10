@@ -31,3 +31,122 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+form {
+  padding: 50px;
+  background-color: dodgerblue;
+  box-shadow: 5px 1px 5px rgba(119, 119, 119, 0.5);
+  margin-bottom: 50px;
+  display: flex;
+  
+}
+
+/* .wrapper */
+
+label {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  text-align: left;
+  display: block;
+  color: white;
+}
+
+input, button {
+  border: none;
+}
+
+input {
+  padding: 10px 20px;
+  background-color: white;
+  width: 100%;
+}
+
+.labelAndInput {
+  width: 40%;
+  min-width: 300px;
+  padding-right: 40px;
+  margin-right: 40px;
+  /* margin-left: 50px; */
+}
+
+button {
+  padding: 10px 20px 10px;
+  border: 0.5px solid rgb(207, 207, 207);
+  box-shadow: 0px 4px 0px rgb(209, 209, 209);
+  transition: all 0.15s ease-in-out;
+  position: relative;
+  transform: translateY(-2px);
+  top: 0;
+  align-self: flex-end;
+}
+
+button:active {
+  box-shadow: 0px 0px 0px rgb(209, 209, 209);
+  top: 4px;
+  outline: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 15px 25px;
+  border: 3px solid rgb(117, 117, 117);
+  width: 75%;
+}
+
+input, li, button {
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  color: rgb(39, 39, 39);
+}
+
+a:hover, a:focus {
+  color: dodgerblue;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+h3 {
+  text-align: left;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+.resultsList {
+  margin: 0 auto 50px;
+  width: 80%;
+  min-width: 550px;
+}
+
+.noResults li {
+  color: rgb(109, 109, 109);
+  border: 3px solid rgb(192, 192, 192);
+}
