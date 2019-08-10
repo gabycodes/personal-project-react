@@ -1,0 +1,24 @@
+{
+  "name": "personal-project-react",
+  "version": "1.0.0",
+  "description": "## Due Date Due by 9am on August 12th",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabycodes/personal-project-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabycodes/personal-project-react/issues"
+  },
+  "homepage": "https://github.com/gabycodes/personal-project-react#readme",
+  "dependencies": {
+    "create-react-app": "^3.1.0",
+    "react": "^16.9.0",
+    "react-redux": "^7.1.0"
+  }
+}
