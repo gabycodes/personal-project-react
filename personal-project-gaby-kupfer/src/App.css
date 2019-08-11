@@ -43,7 +43,6 @@ form {
   box-shadow: 5px 1px 5px rgba(119, 119, 119, 0.5);
   margin-bottom: 50px;
   display: flex;
-  
 }
 
 /* .wrapper */
@@ -71,7 +70,11 @@ input {
   min-width: 300px;
   padding-right: 40px;
   margin-right: 40px;
-  /* margin-left: 50px; */
+  display: inline-block;
+}
+
+.everythingHolder {
+  width: -webkit-fill-available;
 }
 
 button {

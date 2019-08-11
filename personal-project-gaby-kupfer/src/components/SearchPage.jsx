@@ -43,6 +43,7 @@ class SearchPage extends React.Component {
     return (
       <>
         <form>
+        <div className="everythingHolder">
           <div className="labelAndInput">
             <label htmlFor="username">Github Username:</label>
             <input
@@ -55,6 +56,7 @@ class SearchPage extends React.Component {
             />
           </div>
           <button type='button' onClick={() => this.fetchData(username)}>Get Results!</button>
+        </div>
         </form>
         {
           hasResults
